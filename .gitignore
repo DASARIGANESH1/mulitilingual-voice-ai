@@ -1,0 +1,14 @@
+@"
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+.vscode/
+"@ | Out-File -Encoding utf8 .gitignore

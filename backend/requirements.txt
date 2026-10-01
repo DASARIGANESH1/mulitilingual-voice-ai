@@ -1,0 +1,29 @@
+# ============================================================
+# Multilingual Voice AI - Backend Python dependencies
+# ============================================================
+# Install with:  pip install -r requirements.txt
+# (On Windows in a venv:  python -m pip install -r requirements.txt)
+# ============================================================
+
+# --- Web framework ---
+fastapi==0.128.0
+uvicorn[standard]==0.44.0
+python-multipart==0.0.24          # required by FastAPI for file uploads
+pydantic==2.12.5
+pydantic-settings==2.13.1
+
+# --- HTTP / networking ---
+httpx==0.28.1
+
+# --- Environment / config ---
+python-dotenv==1.2.2
+
+# --- External AI provider SDKs ---
+# Groq -> Whisper Large V3 Turbo (STT)
+groq==1.7.0
+
+# Google Gemini (free-tier LLM / NLG)
+google-genai==2.25.0
+
+# ElevenLabs (multilingual TTS)
+elevenlabs==2.69.0
